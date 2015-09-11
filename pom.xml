@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.edu.pku.zx</groupId>
+  <artifactId>spring</artifactId>
+  <version>0.0.1</version>
+  <name>tutorial</name>
+  
+  <dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>4.1.6.RELEASE</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter</artifactId>
+    	<version>1.2.3.RELEASE</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.projectreactor.spring</groupId>
+    	<artifactId>reactor-spring-context</artifactId>
+    	<version>1.1.3.RELEASE</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-web</artifactId>
+    	<version>4.1.6.RELEASE</version>
+    </dependency>
+
+    <dependency>
+    	<groupId>com.fasterxml.jackson.core</groupId>
+    	<artifactId>jackson-databind</artifactId>
+    	<version>2.4.0</version>
+    	
+    <!-- 
+    <dtp:distributedTransactional >
+    	<targets>
+    		<class>cn.edu.pku.zx.spring.example.DebitAccount</class>
+    	</targets>
+    </dtp:distributedTransactionsal>
+    
+    
+     -->
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-jdbc</artifactId>
+    	<version>4.1.6.RELEASE</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-tx</artifactId>
+    	<version>4.1.6.RELEASE</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.h2database</groupId>
+    	<artifactId>h2</artifactId>
+    	<version>1.4.187</version>
+    </dependency>
+    <dependency>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.12</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>com.alipay.xts</groupId>
+        <artifactId>xts-client</artifactId>
+        <version>6.0.8</version>
+     </dependency>   
+  </dependencies>
+</project>

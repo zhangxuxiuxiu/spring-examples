@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/cn/edu/pku/zx/spring/asynchronous/Application.java=UTF-8
+encoding//src/main/java/cn/edu/pku/zx/spring/asynchronous/FacebookLookupService.java=UTF-8
+encoding//src/main/java/cn/edu/pku/zx/spring/asynchronous/Page.java=UTF-8
+encoding//src/main/java/cn/edu/pku/zx/spring/cache/Application.java=UTF-8
+encoding//src/main/java/cn/edu/pku/zx/spring/reactor/Application.java=UTF-8
+encoding//src/main/java/cn/edu/pku/zx/spring/reactor/QuoteResource.java=UTF-8
+encoding//src/main/java/cn/edu/pku/zx/spring/reactor/Receiver.java=UTF-8
+encoding//src/main/java/cn/edu/pku/zx/spring/restful/GreetingController.java=UTF-8
